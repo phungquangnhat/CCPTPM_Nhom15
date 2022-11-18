@@ -1,0 +1,318 @@
+#divTong{
+    z-index: 5;
+}
+
+#div1 tr:hover{
+    background-color:#ddd;
+    cursor:pointer;
+}
+
+#div1 #thaoTac {
+ white-space: nowrap;
+}
+
+#aThemMoi:hover{
+    background-color: #15AD1C;  
+}
+
+#aThemMoi{
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    border: solid 1px green;
+}
+
+#tblHoaDon th, td{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+}
+
+#tblHoaDon,th, td{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#tblHoaDon{
+    align-self : center;
+    width: 100%;
+    /*làm tất cả các đường viền gộp thành một đường duy nhất*/
+    border-collapse: collapse;
+}
+
+#tblHoaDon th,td{
+    padding: 8px;
+}
+
+#div1{
+    width: 78%;
+    height: 75%;
+    /*left: 322px;*/
+    left: 21%;
+    top: 70px;
+    position:absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#aSua{
+    border-radius: 8px;
+    background-color: #00BFFF;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    border: solid 1px #00BFFF;
+    color: white;
+}
+
+#aSua:hover{
+    background-color: #fff;
+    border: solid 1px #fff;
+    color: black;
+}
+
+#aXoa{
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    border: solid 1px red;
+}
+
+#aXoa:hover{
+    background-color: #fff;
+    border: solid 1px #fff;
+    color: black;
+}
+
+#thaoTac{
+    text-align: center;
+}
+
+#h3DatHang{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+
+#bttimkiem{
+    border: none;
+    color: white;
+    padding: 8px 10px 8px 10px;
+    margin-top: 25px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f44336;
+    border-radius: 10px;
+    transition: color 0.5s;
+    background: 0.3s;
+    cursor: pointer;
+}
+
+#bttimkiem:hover{
+    color: black;
+    background-color: #DCDCDC;
+/*    border-radius: 10px;
+    border: solid 1px #DCDCDC;*/
+}
+
+#txtTimKiem{
+    border-radius: 5px;
+    margin: 4px 2px;
+    width: 420px;
+    height: 40px;
+    font-size: 14pt;
+    color: #63717f;
+    /*padding-left: 30px;*/
+    outline: none;
+    border: 2px solid #ddd;
+}
+
+#txtTimKiem:focus{
+    border-color: skyblue;
+    transition: 0.5s;
+}
+
+#formTimKiem{
+    text-align: center;
+}
+
+
+
+/*Css Thêm đơn đặt hàng, chi tiết hóa đơn*/
+
+
+#themDon{
+    width: 40%;
+    height: 100%;
+    /*left: 322px;*/
+    left: 20%;
+    top: 60px;
+    position:absolute;
+    background: #EEEEEE;
+    z-index: 5;
+}
+#themDonCon{
+    
+    /*padding: 10px 10px 10px 10px;*/
+    top: 4%;
+    bottom: 10%;
+    left: 2%;
+    right: 2%;
+    position:absolute;
+    background: white;  
+    z-index: 6;
+}
+
+#themDonCon #iGroup{
+    color: #CC3300;
+}
+#chiTietDon{
+    width: 40%;
+    height: 100%;
+    left: 60%;
+    top: 60px;
+    position:absolute;
+    background: #EEEEEE;
+    /*background-size: 100% 100%;
+    background-repeat: no-repeat;*/
+    z-index: 5;
+}
+
+#chiTietCon{
+    
+    /*padding: 10px 10px 10px 10px;*/
+    top: 4%;
+    bottom: 10%;
+    left: 2%;
+    right: 2%;
+    position:absolute;
+    background: white;  
+    z-index: 6;
+}
+
+#chiTietCon #iGroup{
+    color: #CC3300;
+}
+
+#tblChiTiet{
+    width: 85.6%;
+    height: 100%;
+    left: 14.4%;
+    top: 100%;
+    /*margin-top: 500px;*/
+    position:absolute;
+    /*position: static;*/
+    background: white;
+    z-index: 5;
+}
+
+#divGroup label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+/*input[type=text] chỉ chọn các trường văn bản*/
+input[type=text]{
+    width: 100%;
+    border-radius: 4px;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+#h2ThemDon{
+    text-align: center;
+}
+
+/*#divGroup #trangThai0{
+    color: yellow;
+}*/
+
+#pTrangThai{
+    margin-left: 94px;
+}
+
+input[type=date] {
+    border: 1px solid #ccc;
+    margin-left: 7%;
+    transform: scale(1.5);
+}
+
+/*#optionSanPham{
+    transform: scale(1.5);
+}*/
+select {
+    border: 1px solid #ccc;
+    margin-left: 7%;
+    transform: scale(1.5);
+}
+
+#tblHoaDon1 th, td{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+}
+
+#tblHoaDon1,th, td{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#tblHoaDon1{
+    align-self : center;
+    width: 100%;
+    /*làm tất cả các đường viền gộp thành một đường duy nhất*/
+    border-collapse: collapse;
+    
+}
+
+#tblHoaDon1 th,td{
+    padding: 8px;
+}
+
+
+
+
+#tblXoa{
+    width: 85.6%;
+    height: 100%;
+    left: 14.4%;
+    top: 8%;
+    /*margin-top: 500px;*/
+    position:absolute;
+    /*position: static;*/
+    background: white;
+    z-index: 5;
+}
+
+
+ #tblXoa #tblXoa1 th, td{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+}
+
+#tblXoa #tblXoa1,th, td{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#tblXoa #tblXoa1{
+    align-self : center;
+    width: 100%;
+    /*làm tất cả các đường viền gộp thành một đường duy nhất*/
+    border-collapse: collapse;
+    
+}
+
+#tblXoa #tblXoa1 th,td{
+    padding: 8px;
+}
