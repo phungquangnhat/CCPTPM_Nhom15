@@ -11,7 +11,7 @@
 <body id="body1">
     <div id="divTong">
     <?php
-        require('sideBar.php');
+        require('index.php');
     ?>
     </div>
 	<div id = "div1" >
