@@ -26,7 +26,7 @@
             <br>
         </form>
         <div id="divThemMoi">
-            <a href="" id="aThemMoi"> <i class="fas fa-plus-circle"></i> Thêm mới</a>
+            <a href="themDonDatHang.php" id="aThemMoi"> <i class="fas fa-plus-circle"></i> Thêm mới</a>
         </div>
     <?php
     $servername = "localhost";
@@ -65,11 +65,11 @@
                     echo "<td>" . $row["trangThai"] ."</td>";
                     echo "<td>" . $row["tongTien"] ."</td>";
                     if($row["trangThai"] == 0){
-                        echo "<td id = 'thaoTac'>" . "<a id = 'aSua' href='?id=".$row["id"]."'> <i class='fas fa-pen-square'></i> Sửa</a>" . " " . "<a id ='aXoa' href = '?id=".$row["id"]."'> <i class='fas fa-trash-alt'></i> Xóa</a>" . "</td>";
+                        echo "<td id = 'thaoTac'>" . "<a id = 'aSua' href='suadh.php?id=".$row["id"]."'> <i class='fas fa-pen-square'></i> Sửa</a>" . " " . "<a id ='aXoa' href = 'xoadh.php?id=".$row["id"]."'> <i class='fas fa-trash-alt'></i> Xóa</a>" . "</td>";
                     }
                     else
                     {
-                        echo "<td id = 'thaoTac'>" . "<a id = 'aSua' href=''> <i class='fas fa-pen-square'></i> Sửa</a>" . " " . "<a id ='aXoa' href = ''> <i class='fas fa-trash-alt'></i> Xóa</a>" . "</td>";
+                        echo "<td id = 'thaoTac'>" . "<a id = 'aSua' href='hoanthanh.php'> <i class='fas fa-pen-square'></i> Sửa</a>" . " " . "<a id ='aXoa' href = 'hoanthanh.php'> <i class='fas fa-trash-alt'></i> Xóa</a>" . "</td>";
                         //echo "<td id = 'thaoTac'>"."Đơn hàng đã hoàn thành"."</td>";
                     }
                     echo"</tr>";
@@ -121,7 +121,7 @@
                             echo "<td>" . $row["ngayDat"] ."</td>";
                             echo "<td>" . $row["trangThai"] ."</td>";
                             echo "<td>" . $row["tongTien"] ."</td>";
-                            echo "<td id = 'thaoTac'>" . "<a id = 'aSua' href='?id=".$row["id"]."'> <i class='fas fa-pen-square'></i> Sửa</a>" . " " . "<a id ='aXoa' href = '?Masp=".$row["id"]."'> <i class='fas fa-trash-alt'></i> Xóa</a>" . "</td>";
+                            echo "<td id = 'thaoTac'>" . "<a id = 'aSua' href='suadh.php?id=".$row["id"]."'> <i class='fas fa-pen-square'></i> Sửa</a>" . " " . "<a id ='aXoa' href = 'xoadh.php?Masp=".$row["id"]."'> <i class='fas fa-trash-alt'></i> Xóa</a>" . "</td>";
                         echo"</tr>";
                     }
                     echo "</tbody></table>";
