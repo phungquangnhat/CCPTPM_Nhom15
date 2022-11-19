@@ -84,9 +84,8 @@
                 <li > <a href="index.php"><i class="fal fa-home-lg-alt"></i>Trang chủ </a></li>
                 <li><a href=""><i class="fas fa-file-alt"></i>Sản phẩm</a></li>
                 <li><a href=""><i class="fad fa-clipboard-list"></i>Loại sản phẩm</a></li>
-                <li><a href="DonHang.php"><i class="fal fa-truck"></i>Đơn hàng</a></li>
-                <li><a href="qlnhacc.php"><i class="fas fa-file-invoice-dollar"></i>Nhà cung cấp </a></li>    
-                <li><a href="infor_user.php" target="_blank"><i class="fas fa-tasks"></i>Thông tin người dùng</a></li>       
+                <li><a href=""><i class="fal fa-truck"></i>Đơn hàng</a></li>
+                <li><a href="qlnhacc.php"><i class="fas fa-file-invoice-dollar"></i>Nhà cung cấp </a></li>             
                 <li><a href="index.html"><i class="fas fa-sign-out"></i>Đăng xuất</a></li>   
             </ul>
         </div> 
