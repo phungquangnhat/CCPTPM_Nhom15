@@ -5,7 +5,7 @@
 	<title>
 		Trang Quản Lý
 	</title>
-	<link rel="stylesheet" type="text/css" href=".\hoaDonCss2.css">
+	<link rel="stylesheet" type="text/css" href=".\HoaDonCss.css">
 </head>
 
 <body id="body1">

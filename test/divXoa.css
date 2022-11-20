@@ -1,0 +1,69 @@
+#tblXoa1 th, td{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+}
+
+#tblXoa1,th, td{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#tblXoa1{
+    align-self : center;
+    width: 100%;
+    /*làm tất cả các đường viền gộp thành một đường duy nhất*/
+    border-collapse: collapse;
+    
+}
+
+#tblXoa1 th,td{
+    padding: 8px;
+}
+
+#tblXoa{
+    width: 85.6%;
+    height: 100%;
+    left: 14.4%;
+    top: 8%;
+    /*margin-top: 500px;*/
+    position:absolute;
+    /*position: static;*/
+    background: white;
+    z-index: 5;
+}
+
+#aSua{
+    border-radius: 8px;
+    background-color: #00BFFF;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    border: solid 1px #00BFFF;
+    color: white;
+}
+
+#aSua:hover{
+    background-color: #fff;
+    border: solid 1px #fff;
+    color: black;
+}
+
+#aXoa{
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    border: solid 1px red;
+}
+
+#aXoa:hover{
+    background-color: #fff;
+    border: solid 1px #fff;
+    color: black;
+}
+
+#thaoTac{
+    text-align: center;
+}
